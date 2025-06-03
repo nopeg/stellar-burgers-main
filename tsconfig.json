@@ -15,7 +15,6 @@
     "isolatedModules": true,
     "noEmit": false,
     "jsx": "react-jsx",
-    "types": ["node", "jest"],
     "baseUrl": ".",
     "paths": {
       "@pages": ["src/pages"],
@@ -25,6 +24,8 @@
       "@utils-types": ["src/utils/types"],
       "@api": ["src/utils/burger-api.ts"],
       "@slices": ["src/services/slices"],
+      "@hooks": ["src/hooks"],
+      "@store": ["src/services/store.ts"],
       "@selectors": ["src/services/selectors"]
     }
   },
